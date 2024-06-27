@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/aero-website/static/css/main.afd0d1ff.css",
+    "main.js": "/aero-website/static/js/main.8e3b3288.js",
+    "static/media/img1.png": "/aero-website/static/media/img1.4ad813f2b8f1532c0788.png",
+    "static/media/slider3-aero1-1920x846_1920x846.progressive.jpg": "/aero-website/static/media/slider3-aero1-1920x846_1920x846.progressive.ec588a1b553bec6d15b7.jpg",
+    "static/media/slider2-aero1-1920x846_1920x846.progressive.jpg": "/aero-website/static/media/slider2-aero1-1920x846_1920x846.progressive.7634da5ef3efe65d16fc.jpg",
+    "static/media/slider1-aero1-1920x846_1920x846.progressive.jpg": "/aero-website/static/media/slider1-aero1-1920x846_1920x846.progressive.2bbb0bd04605962d776f.jpg",
+    "static/media/bkg_testtimor.jpg": "/aero-website/static/media/bkg_testtimor.024fee5d6b83d74def31.jpg",
+    "static/media/bkg_footer_c0f71867-38e3-492b-995f-7d0269b97db1.jpg": "/aero-website/static/media/bkg_footer_c0f71867-38e3-492b-995f-7d0269b97db1.2a5ba6065a161fcded79.jpg",
+    "index.html": "/aero-website/index.html",
+    "main.afd0d1ff.css.map": "/aero-website/static/css/main.afd0d1ff.css.map",
+    "main.8e3b3288.js.map": "/aero-website/static/js/main.8e3b3288.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afd0d1ff.css",
+    "static/js/main.8e3b3288.js"
+  ]
+}
