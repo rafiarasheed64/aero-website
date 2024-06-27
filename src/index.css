@@ -1,13 +1,233 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
+/* .dropdown-menu{
+  display: flex;
+} */
+.dropdown-toggle{
+  color: white;
+}
+.active{
+  background-color: red;
+}
+.dropdown-toggle:hover{
+  background-color: red;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.icn{
+  cursor: pointer;
+}
+.icn:hover{
+  color: red;
+}
+.line{
+  height: 2px;
+  width: 100%;
+  background-color: red;
+}
+.first{
+  height: max-content;
+  width: 100%;
+  background-color: rgb(20,21,27);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading{
+  color: rgb(27,29,35);
+  font-size: 78px; 
+  line-height: 100px;
+  position: relative;
+}
+.img{
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.text1{
+  color: rgb(131,136,150);
+  font-size: 24px;
+}
+.text2{
+  color: rgb(229,21,23);
+  font-weight: 700;
+}
+.text3{
+  color: rgb(131,136,150);
+}
+.text4{
+  color: rgb(131,136,150);
+  margin-top: 30px;
+}
+.content-div{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.txt1{
+  margin-top: 12%;
+  animation: up 0.3s linear;
+}
+@keyframes up {
+  0%{
+    margin-top: 15%;
+    opacity: 0;
+  }
+  100%{
+    margin-top: 12%;
+    opacity: 1;
+  }
+  
+}
+.crd{
+  background-color: rgb(20,21,27);
+  border: 2px solid rgb(132, 136, 147);
+  border-radius: 6px;
+  position: relative;
+  transition: all 0.3s linear;
+  overflow: hidden;
+  margin-top: 20px;
+  /* flex-wrap: wrap; */
+}
+.img-2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s linear;
+}
+.crd:hover .img-2{
+  z-index: 1;
+}
+.icon-div{
+  height: 100px;
+  position: absolute;
+  left: -20px;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  transition: all 0.3s linear;
+}
+.crd:hover .icon-div{
+  left: 0;
+}
+.text5,.text05{
+  color: rgb(131,136,150);
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.text05{
+  font-size: 13px;
+}
+.text5:hover{
+  color: red;
+}
+.line-grey{
+  color: rgb(27, 71, 191);
+  height: 9px;
+  width: 100%;
+  margin-top: 50%;
+
+}
+.text6{
+  color: rgb(131,136,150);
+  font-size: 14px;
+  margin-top: 20px;
+}
+.text7{
+  color: red;
+  font-weight: 700;
+}
+.btn{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 10px 30px;
+  background-color: rgb(33,37,44);
+  color: rgb(131,136,150);
+  border: none;
+  border-radius: 20px;
+}
+.btn:hover{
+  background-color: red;
+  color: white;
+  box-shadow: 10px 10px 15px rgb(223, 52, 52);
+}
+.second-bg-img{
+  background-image: url(./Component/aero-image/bkg_testtimor.jpg);
+  height: auto;
+  width: 100%;
+}
+.dis{
+  color: rgb(99,103,115);position: relative;
+}
+.greyline{
+  color: rgb(99,103,115);
+height: 10px;
+width: 100%;position: absolute;
+top: 0;
+left: 0;
+z-index: 44;
+}
+.rows {
+ 
+  background-color:rgb(34,35,43);
+
+}
+.btn1{
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 10px 30px;
+  background-color: rgb(33,37,44);
+  color: rgb(131,136,150);
+  border: none;
+  border-radius: 20px;
+  margin: auto;
+}
+.btn1:hover{
+  background-color: red;
+  color: white;
+  box-shadow: 10px 10px 15px rgb(223, 52, 52);
+}
+.footer-img{
+  border-top: 2px solid red;
+  height: auto;
+  background-image: url(./Component/aero-image/bkg_footer_c0f71867-38e3-492b-995f-7d0269b97db1.jpg);
+  background-position: left;
+  background-size: cover;
+}
+.brdr{
+  border-left: 1px solid rgb(46,51,61);
+}
+.fourth-img{
+  height: max-content;
+}
+@media screen and (max-width:475px) {
+  .txtt1{
+    font-size: 15px;
+  }
+  .txtt2{
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .txtt3{
+    font-size: 13px;
+  }
+  .btnn{
+    padding: 3px;
+    font-size: 12px;
+  }
 }
